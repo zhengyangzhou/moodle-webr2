@@ -1,0 +1,22 @@
+---
+title: "Try R"
+filters:
+  - webr
+webr:
+  channel-type: post-message
+---
+
+## Try your first R command
+
+Change the code if you want, then click **Run Code**.
+
+```{webr-r}
+2 + 3
+```
+
+## Create an object
+
+```{webr-r}
+age <- 25
+age
+```
