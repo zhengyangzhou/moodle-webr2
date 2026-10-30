@@ -1,0 +1,51 @@
+---
+title: "Section 1.3 - Explore the College Drinking Dataset"
+filters:
+  - webr
+webr:
+  channel-type: post-message
+---
+
+## Explore the College Drinking Dataset
+
+Run the code below to import the dataset and learn about its structure.
+
+```{webr-r}
+drinking_data <- read.csv(
+  "https://raw.githubusercontent.com/zhengyangzhou/moodle-webr2/main/data/college_drinking_long.csv"
+)
+
+# Look at the first few rows
+head(drinking_data)
+
+# Check the size of the dataset
+dim(drinking_data)
+
+# Look at variable names
+names(drinking_data)
+
+# Examine variable types and structure
+str(drinking_data)
+
+# Get a quick summary
+summary(drinking_data)
+
+# Examine assessment times
+table(drinking_data$month)
+
+# Examine treatment groups
+table(drinking_data$treatment)
+
+# Examine studies
+table(drinking_data$study_id)
+
+# Examine study-by-treatment combinations
+table(drinking_data$study_id,
+      drinking_data$treatment)
+
+# Check the mandated variable
+table(drinking_data$mandated)
+
+# Check for missing values
+colSums(is.na(drinking_data))
+```
