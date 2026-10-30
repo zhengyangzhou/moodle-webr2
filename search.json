@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "section1_3.html",
+    "href": "section1_3.html",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "",
+    "text": "Run the code below to import the teaching dataset and view the first few rows.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#import-and-preview-the-dataset",
+    "href": "section1_3.html#import-and-preview-the-dataset",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "",
+    "text": "Run the code below to import the teaching dataset and view the first few rows.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#check-the-dataset-size",
+    "href": "section1_3.html#check-the-dataset-size",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Check the Dataset Size",
+    "text": "Check the Dataset Size\nUse dim() to see the number of rows and columns.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nYou can also check the number of rows and columns separately.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#view-the-variable-names",
+    "href": "section1_3.html#view-the-variable-names",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "View the Variable Names",
+    "text": "View the Variable Names\nUse names() to see all variables in the dataset.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#examine-the-dataset-structure",
+    "href": "section1_3.html#examine-the-dataset-structure",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Examine the Dataset Structure",
+    "text": "Examine the Dataset Structure\nUse str() to see how R has interpreted each variable.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#get-a-quick-summary",
+    "href": "section1_3.html#get-a-quick-summary",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Get a Quick Summary",
+    "text": "Get a Quick Summary\nUse summary() to obtain a general overview of the variables.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#examine-categories-and-assessment-times",
+    "href": "section1_3.html#examine-categories-and-assessment-times",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Examine Categories and Assessment Times",
+    "text": "Examine Categories and Assessment Times\nUse table() to count the observations in selected variables.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#compare-study-and-treatment-groups",
+    "href": "section1_3.html#compare-study-and-treatment-groups",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Compare Study and Treatment Groups",
+    "text": "Compare Study and Treatment Groups\nA two-way table can show which treatment groups are represented within each study.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section1_3.html#check-data-quality",
+    "href": "section1_3.html#check-data-quality",
+    "title": "Section 1.3 - Explore the College Drinking Dataset",
+    "section": "Check Data Quality",
+    "text": "Check Data Quality\nFirst, examine the mandated variable.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThen check whether any variables contain missing values.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Try R",
