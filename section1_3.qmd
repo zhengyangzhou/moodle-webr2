@@ -6,46 +6,88 @@ webr:
   channel-type: post-message
 ---
 
-## Explore the College Drinking Dataset
+## Import and Preview the Dataset
 
-Run the code below to import the dataset and learn about its structure.
+Run the code below to import the teaching dataset and view the first few rows.
 
 ```{webr-r}
 drinking_data <- read.csv(
   "https://raw.githubusercontent.com/zhengyangzhou/moodle-webr2/main/data/college_drinking_long.csv"
 )
 
-# Look at the first few rows
 head(drinking_data)
+```
 
-# Check the size of the dataset
+## Check the Dataset Size
+
+Use `dim()` to see the number of rows and columns.
+
+```{webr-r}
 dim(drinking_data)
+```
 
-# Look at variable names
+You can also check the number of rows and columns separately.
+
+```{webr-r}
+nrow(drinking_data)
+ncol(drinking_data)
+```
+
+## View the Variable Names
+
+Use `names()` to see all variables in the dataset.
+
+```{webr-r}
 names(drinking_data)
+```
 
-# Examine variable types and structure
+## Examine the Dataset Structure
+
+Use `str()` to see how R has interpreted each variable.
+
+```{webr-r}
 str(drinking_data)
+```
 
-# Get a quick summary
+## Get a Quick Summary
+
+Use `summary()` to obtain a general overview of the variables.
+
+```{webr-r}
 summary(drinking_data)
+```
 
-# Examine assessment times
+## Examine Categories and Assessment Times
+
+Use `table()` to count the observations in selected variables.
+
+```{webr-r}
 table(drinking_data$month)
 
-# Examine treatment groups
 table(drinking_data$treatment)
 
-# Examine studies
 table(drinking_data$study_id)
+```
 
-# Examine study-by-treatment combinations
+## Compare Study and Treatment Groups
+
+A two-way table can show which treatment groups are represented within each study.
+
+```{webr-r}
 table(drinking_data$study_id,
       drinking_data$treatment)
+```
 
-# Check the mandated variable
+## Check Data Quality
+
+First, examine the `mandated` variable.
+
+```{webr-r}
 table(drinking_data$mandated)
+```
 
-# Check for missing values
+Then check whether any variables contain missing values.
+
+```{webr-r}
 colSums(is.na(drinking_data))
 ```
