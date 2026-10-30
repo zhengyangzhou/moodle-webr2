@@ -1,66 +1,52 @@
 [
   {
-    "objectID": "section2_1.html",
-    "href": "section2_1.html",
-    "title": "Section 2.1 - Getting Started with dplyr",
+    "objectID": "section2_2.html",
+    "href": "section2_2.html",
+    "title": "Section 2.2 - Filtering and Creating Variables",
     "section": "",
-    "text": "Load the dplyr package and import the same college drinking dataset used in Topic 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Load dplyr and import the same college drinking dataset used in the previous sections.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "section2_1.html#load-dplyr-and-the-dataset",
-    "href": "section2_1.html#load-dplyr-and-the-dataset",
-    "title": "Section 2.1 - Getting Started with dplyr",
+    "objectID": "section2_2.html#load-dplyr-and-the-dataset",
+    "href": "section2_2.html#load-dplyr-and-the-dataset",
+    "title": "Section 2.2 - Filtering and Creating Variables",
     "section": "",
-    "text": "Load the dplyr package and import the same college drinking dataset used in Topic 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Load dplyr and import the same college drinking dataset used in the previous sections.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "section2_1.html#select-variables",
-    "href": "section2_1.html#select-variables",
-    "title": "Section 2.1 - Getting Started with dplyr",
-    "section": "Select Variables",
-    "text": "Select Variables\nUse select() to keep only the variables needed for a simpler working dataset.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nTry changing the variables inside select() and run the code again."
+    "objectID": "section2_2.html#filter-rows-with-one-condition",
+    "href": "section2_2.html#filter-rows-with-one-condition",
+    "title": "Section 2.2 - Filtering and Creating Variables",
+    "section": "Filter Rows with One Condition",
+    "text": "Filter Rows with One Condition\nUse filter() to keep only observations that meet a condition.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nTry changing 6 to 0 and run the code again."
   },
   {
-    "objectID": "section2_1.html#rename-a-variable",
-    "href": "section2_1.html#rename-a-variable",
-    "title": "Section 2.1 - Getting Started with dplyr",
-    "section": "Rename a Variable",
-    "text": "Rename a Variable\nUse rename() when a clearer variable name would make the dataset easier to understand.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nRemember: the new variable name goes on the left and the old variable name goes on the right."
+    "objectID": "section2_2.html#filter-rows-with-multiple-conditions",
+    "href": "section2_2.html#filter-rows-with-multiple-conditions",
+    "title": "Section 2.2 - Filtering and Creating Variables",
+    "section": "Filter Rows with Multiple Conditions",
+    "text": "Filter Rows with Multiple Conditions\nYou can include more than one condition inside filter().\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThe two conditions above are both required to be true."
   },
   {
-    "objectID": "section2_1.html#arrange-rows",
-    "href": "section2_1.html#arrange-rows",
-    "title": "Section 2.1 - Getting Started with dplyr",
-    "section": "Arrange Rows",
-    "text": "Arrange Rows\nUse arrange() to change the order of the rows.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nNow try sorting participants from the highest to lowest reported number of drinks per day.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "section2_2.html#create-a-binary-variable-with-mutate-and-ifelse",
+    "href": "section2_2.html#create-a-binary-variable-with-mutate-and-ifelse",
+    "title": "Section 2.2 - Filtering and Creating Variables",
+    "section": "Create a Binary Variable with mutate() and ifelse()",
+    "text": "Create a Binary Variable with mutate() and ifelse()\nUse mutate() to create a new variable. Here, ifelse() creates a simple Yes/No indicator for whether any drinking was reported.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "section2_1.html#build-a-simple-dplyr-pipeline",
-    "href": "section2_1.html#build-a-simple-dplyr-pipeline",
-    "title": "Section 2.1 - Getting Started with dplyr",
-    "section": "Build a Simple dplyr Pipeline",
-    "text": "Build a Simple dplyr Pipeline\nCombine several operations into one readable sequence.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThe pipeline can be read as:\n\nStart with drinking_data.\nKeep the variables needed for the task.\nArrange the observations by participant and assessment month.\nSave the result as drinking_small."
+    "objectID": "section2_2.html#create-multiple-categories-with-case_when",
+    "href": "section2_2.html#create-multiple-categories-with-case_when",
+    "title": "Section 2.2 - Filtering and Creating Variables",
+    "section": "Create Multiple Categories with case_when()",
+    "text": "Create Multiple Categories with case_when()\nUse case_when() when a variable needs more than two categories.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\ncase_when() checks conditions from top to bottom and assigns the first matching category."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Try R",
-    "section": "",
-    "text": "Change the code if you want, then click Run Code.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "index.html#try-your-first-r-command",
-    "href": "index.html#try-your-first-r-command",
-    "title": "Try R",
-    "section": "",
-    "text": "Change the code if you want, then click Run Code.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "index.html#create-an-object",
-    "href": "index.html#create-an-object",
-    "title": "Try R",
-    "section": "Create an object",
-    "text": "Create an object\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "section2_2.html#combine-filtering-and-variable-creation",
+    "href": "section2_2.html#combine-filtering-and-variable-creation",
+    "title": "Section 2.2 - Filtering and Creating Variables",
+    "section": "Combine Filtering and Variable Creation",
+    "text": "Combine Filtering and Variable Creation\nNow combine the two ideas in one pipeline.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThis pipeline can be read as:\n\nStart with drinking_data.\nKeep only the 6-month observations.\nCreate a new variable called any_drinking.\nSave the result as month6_analysis."
   },
   {
     "objectID": "section1_3.html",
@@ -124,5 +110,68 @@
     "title": "Section 1.3 - Explore the College Drinking Dataset",
     "section": "Check Data Quality",
     "text": "Check Data Quality\nFirst, examine the mandated variable.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThen check whether any variables contain missing values.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Try R",
+    "section": "",
+    "text": "Change the code if you want, then click Run Code.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "index.html#try-your-first-r-command",
+    "href": "index.html#try-your-first-r-command",
+    "title": "Try R",
+    "section": "",
+    "text": "Change the code if you want, then click Run Code.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "index.html#create-an-object",
+    "href": "index.html#create-an-object",
+    "title": "Try R",
+    "section": "Create an object",
+    "text": "Create an object\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section2_1.html",
+    "href": "section2_1.html",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "",
+    "text": "Load the dplyr package and import the same college drinking dataset used in Topic 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section2_1.html#load-dplyr-and-the-dataset",
+    "href": "section2_1.html#load-dplyr-and-the-dataset",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "",
+    "text": "Load the dplyr package and import the same college drinking dataset used in Topic 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section2_1.html#select-variables",
+    "href": "section2_1.html#select-variables",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "Select Variables",
+    "text": "Select Variables\nUse select() to keep only the variables needed for a simpler working dataset.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nTry changing the variables inside select() and run the code again."
+  },
+  {
+    "objectID": "section2_1.html#rename-a-variable",
+    "href": "section2_1.html#rename-a-variable",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "Rename a Variable",
+    "text": "Rename a Variable\nUse rename() when a clearer variable name would make the dataset easier to understand.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nRemember: the new variable name goes on the left and the old variable name goes on the right."
+  },
+  {
+    "objectID": "section2_1.html#arrange-rows",
+    "href": "section2_1.html#arrange-rows",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "Arrange Rows",
+    "text": "Arrange Rows\nUse arrange() to change the order of the rows.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nNow try sorting participants from the highest to lowest reported number of drinks per day.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "section2_1.html#build-a-simple-dplyr-pipeline",
+    "href": "section2_1.html#build-a-simple-dplyr-pipeline",
+    "title": "Section 2.1 - Getting Started with dplyr",
+    "section": "Build a Simple dplyr Pipeline",
+    "text": "Build a Simple dplyr Pipeline\nCombine several operations into one readable sequence.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThe pipeline can be read as:\n\nStart with drinking_data.\nKeep the variables needed for the task.\nArrange the observations by participant and assessment month.\nSave the result as drinking_small."
   }
 ]
